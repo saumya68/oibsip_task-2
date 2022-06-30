@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --select: 1.5rem;
+    --test: calc(1rem + 5vw);
+}
+
+
+
+body{
+    font-family: 'Gentium Plus', serif;
+}
+
+
+
+.beauty-section{
+    min-height: 100vh;
+    background: url(https://media.istockphoto.com/photos/top-view-of-pastel-office-woman-table-desk-table-with-beauty-palm-picture-id1030871234?k=20&m=1030871234&s=612x612&w=0&h=y9F0h0MJb72buHMxe-kObWiV3rvrNPyRbFYotTnj1HM=);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0rem 1rem;
+    background: black;
+    width: 100%;
+    
+}
+
+.navbar ul{
+    list-style: none;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--select);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: pink;
+}
+
+.beauty-text{
+    color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.beauty-text a{
+    color:black;
+    background-color: rgb(240, 26, 97);
+   color: white;
+   text-decoration: none;
+   border-radius: 6px;
+   font-size: 18px;
+   padding: 4px;
+   margin-right: 40rem;
+   margin-top: 10px;
+  
+}
+
+.beauty-text h2{
+    font-size: var(--test);
+    color: gray;
+    margin-right: 50rem;
+    margin-top: -8rem;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#004);
+    line-height: 0.70;
+    outline: none;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: whitesmoke;
+        text-shadow: 0 0 10px black;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px olive
+    }
+}
+.beauty-text div .bro{
+    font-size: var(--select);
+    color: purple;
+    margin-right: 30rem ;
+    font-weight: 900;
+    padding-top: 3sssssspc;
+}
+
+.beauty-text p{
+    margin-right: 25rem;
+    color: purple;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5pc;
+    
+}
+.beauty-text p span{
+    margin-right: 18rem;
+    color: purple;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.beauty-text::before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:100%;
+    
+    background: linear-gradient(to right, rgb(187, 182, 182),white);
+    z-index: -1;
+    top:0;
+    bottom:0;
+    opacity: 0.5;
+
+}
+.social-media{
+    transform: translate(80px) translate(30px);
+  
+    color: purple;
+    font-size: 1rem;
+    margin-left: 60rem;
+    display: flex;
+}
+
+.social-media div{
+    
+    font-size: 2rem;
+   padding: 5px;
+ 
+
+    
+    
+    
+}
